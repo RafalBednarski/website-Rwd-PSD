@@ -59,9 +59,16 @@ body {
 
 .rectangles h2 {
 	padding-top: 20px;
+	text-align: center;
+}
+
+.rectangles p {
+	text-align: center;
 }
 
 .rectangle-filter {
+	position: absolute;
+	left: 0;
   	height: 30vh;
   	width: 100%;
   	color: #fff;
@@ -77,6 +84,15 @@ body {
 	background: #9C27B0;
 }
 
+.rectangle-top-1:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    z-index: 1;
+    -webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
+} 
+
 .rectangle-top-2 {
 	height: 30vh;
 	width: 100%;
@@ -87,7 +103,17 @@ body {
 	padding-top: 20px;
 }
 
+.rectangle-top-2:hover {
+	transform: scale(1.1);
+    transition: 0.3s;
+    z-index: 1;
+    -webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
+}
+
 .rectangle-top-3 {
+	position: relative;
 	height: 30vh;
 	width: 100%;
 	background-image: url(https://images.pexels.com/photos/294674/pexels-photo-294674.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);
@@ -100,13 +126,31 @@ body {
 	background-position:center;
 }
 
+.rectangle-top-3:hover {
+	transform: scale(1.1);
+    transition: 0.3s;
+    z-index: 1;
+    -webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
+}
+
 .rectangle-top-4 {
 	height: 30vh;
 	width: 100%;
 	background: #7B1FA2;
 }
 
-.ractange-1 {
+.rectangle-top-4:hover {
+	transform: scale(1.1);
+    transition: 0.3s;
+    z-index: 1;
+    -webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
+} 
+
+.rectangle-1 {
 	height: 30vh;
 	width: 100%;
 	background-image: url(https://images.pexels.com/photos/372098/pexels-photo-372098.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);
@@ -118,13 +162,32 @@ body {
 	background-position:center;
 }
 
+.rectangle-1:hover {
+	transform: scale(1.1);
+    transition: 0.3s;
+    z-index: 1;
+    -webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
+}
+
 .rectangle-2 {
 	height: 30vh;
 	width: 100%;
 	background: #68efad;
 }
 
+.rectangle-2:hover {
+	transform: scale(1.1);
+    transition: 0.3s;
+    z-index: 1;
+    -webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
+}
+
 .rectangle-3 {
+	position: relative;
 	height: 30vh;
 	width: 100%;
 	background-image: url(https://images.pexels.com/photos/346908/pexels-photo-346908.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);
@@ -135,6 +198,15 @@ body {
 	-o-background-size:cover;
 	background-size:cover;
 	background-position:center;
+}
+
+.rectangle-3:hover {
+	transform: scale(1.1);
+    transition: 0.3s;
+    z-index: 1;
+    -webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
 }
 
 .a-look-at {
@@ -194,14 +266,15 @@ body {
 	height: 50vh;
 	max-width: 40%
 	background: #fff;
-	box-shadow: 0px 0px 20px black;
 	padding-right: 15px;
 }
 
 .card-shadow:hover {
-    transform: scale(0.95);
-    transition: 1s;
-    box-shadow: 0px 0px 0px black;
+    transform: scale(1.1);
+    transition: 0.5s;
+	-webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
 } 
 
 .btn {
@@ -244,8 +317,6 @@ body {
 	}
 }
 
-
-
 @media (max-width: 992px) {
 	
 	.start-something-new img {
@@ -277,7 +348,6 @@ body {
 	}
 }
 
-
 @media (max-width: 768px) {
 
 	.slogan {
@@ -287,6 +357,10 @@ body {
 	.start-something-new p, h2 {
 		padding: 10px;
 		text-align: center;
+	}
+
+	.phone {
+		display: none;
 	}
 
 	.reason-to-get {
@@ -305,6 +379,13 @@ body {
 
 	.card {
 		height: auto;
+	}
+
+	.card-shadow {
+		height: 60vh;
+		-webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0);
+		-moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0);
+		box-shadow: 0px 2px 3px 0px rgba(0,0,0,0);
 	}
 
 	.footer {
