@@ -232,10 +232,9 @@ body {
 .old-car-slogan {
 	background: rgba(49, 50, 52, 0.5);
  	width: 600px;
- 	width: 600px;
   	height: 300px;
   	color: #fff;
-  	padding-left: 50px;
+  	padding-left: 100px;
 }
 
 .old-car-slogan h1 {
@@ -256,14 +255,13 @@ body {
 }
 
 .card {
-	height: 70vh;
+	min-height: 70vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;	
 }
 
 .card-shadow {
-	height: 50vh;
 	max-width: 40%
 	background: #fff;
 	padding-right: 15px;
@@ -374,7 +372,8 @@ body {
 
 	.old-car-slogan {
 		width: 100%;
-		text-align: center;
+		height: 350px;
+		padding-left: 50px;
 	}
 
 	.card {
@@ -382,12 +381,15 @@ body {
 	}
 
 	.card-shadow {
-		height: 60vh;
+		height: 80vh;
+	}
+
+	.card-shadow:hover {
+		transform: scale(1.0);
 		-webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0);
 		-moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0);
 		box-shadow: 0px 2px 3px 0px rgba(0,0,0,0);
-		margin-bottom: 20px;
-}
+	}
 
 	.footer {
 		height: auto;
