@@ -2,13 +2,12 @@ body {
 	padding: 0;
 }
 
-.jumbotron {
-	background-image: url(https://images.pexels.com/photos/547116/pexels-photo-547116.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);
+.myJumbotron {
+	background: url("../image/jumbotron.png");
 	height: 130vh;
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
-	padding: 0;
 	background-repeat:no-repeat;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -19,26 +18,24 @@ body {
 
 .slogan {
 	background: rgba(49, 50, 52, 0.5);
- 	width: 600px;
-  	height: 200px;
-  	margin-top: 150px;
-  	padding: 0;
+ 	width: 38rem;
+  	height: 13rem;
+  	margin-top: 10rem;
   	color: #fff;
 }
 
 .phone {
-	width: 700px;
-	height: 100px;
+	width: 43rem;
+	height: 6rem;
 }
 
 .slogan h1 {
     text-align: center;
-    padding-top: 30px; 
+    padding-top: 2rem; 
 }
 
 .slogan p {
 	text-align: center;
-	font-size: 20px;
 }
 
 .start-something-new {
@@ -58,7 +55,7 @@ body {
 }
 
 .rectangles h2 {
-	padding-top: 20px;
+	padding-top: 1rem;
 	text-align: center;
 }
 
@@ -66,58 +63,44 @@ body {
 	text-align: center;
 }
 
-.rectangle-filter {
-	position: absolute;
-	left: 0;
-  	height: 30vh;
-  	width: 100%;
-  	color: #fff;
-  	padding-left: 0;
-  	padding-right: 0;
-  	background: rgba(0, 0, 0, 0.5);
-  	margin: 0;
-}
-
 .rectangle-top-1 {
-	height: 30vh;
+	min-height: 30vh;
 	width: 100%;
-	background: #9C27B0;
+	background-color: #f5989d;
+	border-radius: 0px;
+	margin: 0;
 }
 
 .rectangle-top-1:hover {
-    transform: scale(1.1);
+    transform: scale(1.01);
     transition: 0.3s;
-    z-index: 1;
-    -webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
-	box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
 } 
 
 .rectangle-top-2 {
-	height: 30vh;
+	min-height: 30vh;
 	width: 100%;
-	background: #6A1B9A;
+	background-color: #615f7d;
+	border-radius: 0px;
+	margin: 0;
 }
 
 .rectangle-top-2 h2 {
-	padding-top: 20px;
+	border-radius: 0px;
+	margin: 0;
 }
 
 .rectangle-top-2:hover {
-	transform: scale(1.1);
+	transform: scale(1.01);
     transition: 0.3s;
-    z-index: 1;
-    -webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
-	box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
 }
 
 .rectangle-top-3 {
-	position: relative;
-	height: 30vh;
+	min-height: 30vh;
 	width: 100%;
-	background-image: url(https://images.pexels.com/photos/294674/pexels-photo-294674.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);
-	color: #6A1B9A;
+	background: #000 url("../image/rectangle-top-3.png");
+	color: #fff;
+	border-radius: 0px;
+	margin: 0;
 	background-repeat:no-repeat;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -127,33 +110,29 @@ body {
 }
 
 .rectangle-top-3:hover {
-	transform: scale(1.1);
+	transform: scale(1.01);
     transition: 0.3s;
-    z-index: 1;
-    -webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
-	box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
 }
 
 .rectangle-top-4 {
-	height: 30vh;
+	min-height: 30vh;
 	width: 100%;
-	background: #7B1FA2;
+	background-color: #bd8cbf;
+	border-radius: 0px;
+	margin: 0;
 }
 
 .rectangle-top-4:hover {
-	transform: scale(1.1);
+	transform: scale(1.01);
     transition: 0.3s;
-    z-index: 1;
-    -webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
-	box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
 } 
 
 .rectangle-1 {
-	height: 30vh;
+	min-height: 30vh;
 	width: 100%;
-	background-image: url(https://images.pexels.com/photos/372098/pexels-photo-372098.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);
+	background: #000 url("../image/rectangle-1.png");
+	border-radius: 0px;
+	margin: 0;
 	background-repeat:no-repeat;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -163,35 +142,30 @@ body {
 }
 
 .rectangle-1:hover {
-	transform: scale(1.1);
+	transform: scale(1.01);
     transition: 0.3s;
-    z-index: 1;
-    -webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
-	box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
 }
 
 .rectangle-2 {
-	height: 30vh;
+	min-height: 30vh;
 	width: 100%;
-	background: #68efad;
+	background-color: #82ca9c;
+	border-radius: 0px;
+	margin: 0;
 }
 
 .rectangle-2:hover {
-	transform: scale(1.1);
+	transform: scale(1.01);
     transition: 0.3s;
-    z-index: 1;
-    -webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
-	box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
 }
 
 .rectangle-3 {
-	position: relative;
-	height: 30vh;
+	min-height: 30vh;
 	width: 100%;
-	background-image: url(https://images.pexels.com/photos/346908/pexels-photo-346908.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);
-	color: #6A1B9A;
+	background: #000 url("../image/rectangle-3.png");
+	color: #fff;
+	border-radius: 0px;
+	margin: 0;
 	background-repeat:no-repeat;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -201,22 +175,18 @@ body {
 }
 
 .rectangle-3:hover {
-	transform: scale(1.1);
+	transform: scale(1.01);
     transition: 0.3s;
-    z-index: 1;
-    -webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
-	box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
 }
 
 .a-look-at {
-	margin-top: 10vh;
+	margin-top: 5rem;
 }
 
 .old-car {
 	height: 100vh;	
-	background-image: url(https://images.pexels.com/photos/132657/pexels-photo-132657.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb);
-	margin-top: 10vh;
+	background-image: url("../image/old-car.png");
+	margin-top: 5rem;
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
@@ -231,61 +201,104 @@ body {
 
 .old-car-slogan {
 	background: rgba(49, 50, 52, 0.5);
- 	width: 600px;
-  	height: 300px;
+ 	width: 38rem;
+  	height: 19rem;
   	color: #fff;
-  	padding-left: 100px;
+  	padding-left: 6rem;
 }
 
 .old-car-slogan h1 {
-	padding-top: 50px;
+	padding-top: 3rem;
 }
 
 .reason-to-get {
-	background: #68efad;
+	background-color: #82ca9c;
 	height: 70vh;
-	font-weight: bold;
 	color: #fff;
 }
 
 .reason-to-get h2 {
-	padding-top: 50px;
+	padding-top: 3rem;
 	padding-bottom: 10vh;
 	text-align: center;
 }
 
-.card {
+.cards {
+	background-color: #f6f7fa;
 	min-height: 70vh;
 	display: flex;
-	align-items: center;
-	justify-content: center;	
+	flex-direction: row;
+	flex-wrap: wrap;
+	text-align: center;
+	justify-content: center;
+	padding-bottom: 5rem;	
 }
 
-.card-shadow {
-	max-width: 40%
-	background: #fff;
-	padding-right: 15px;
+.card-1 {
+	margin-top: 5rem;
+	max-width: 35.625rem;
+	min-height: 23.75rem;
+	margin-right: 1rem;
+	margin-bottom: 1rem;
+	padding-left: 2rem;
+	text-align: left;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
 }
 
-.card-shadow:hover {
-    transform: scale(1.1);
-    transition: 0.5s;
-	-webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
-	-moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
-	box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
+.card-1:hover {
+	transform: scale(1.05);
+    transition: 0.3s;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.16), 0 4px 14px 0 rgba(0,0,0,.12);
+    background: #fff;
+}
+
+.card-2 {
+	margin-top: 5rem;
+	max-width: 35.625rem;
+	min-height: 23.75rem;
+	margin-left: 1rem;
+	margin-bottom: 1rem;
+	padding-left: 2rem;
+	text-align: left;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+}
+
+.card-2:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.16), 0 4px 14px 0 rgba(0,0,0,.12);
+    background: #fff;
 } 
 
-.btn {
-	background: #68efad;
+.button-popular {
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+	padding: 0.5rem;
+	width: 7rem;
+	height: 1.5rem;
+	border-radius: 0.313rem;
+	background-color: #bd8cbf;
 }
 
-.card-shadow-content {
-	padding-top: 50px;
-	margin-left: 30px;
+.button-custom {
+	width: 9.438rem;
+	height: 2.938rem;
+	border-radius: 0.188rem;
+	background-color: #82ca9c;
 }
+
+.small-icon {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.small-icon img {
+	margin: 0.5rem;
+}
+
 
 .footer {
-	background: #6A1B9A;
+	background-color: #192431;
 	height: 70vh;
 	color: #fff;
 }
@@ -299,8 +312,11 @@ body {
 	padding-top: 10vh;
 }
 
-.md-form label {
-	color: #fff;
+.input-custom {
+	width: 29.375rem;
+	height: 3.625rem;
+	border-radius: 0.125rem;
+	background-color: #f6f7fa;
 }
 
 .contact {
@@ -325,14 +341,6 @@ body {
 		width: 100%;
 	}
 
-	.rectangle {
-		height: auto;
-	}
-
-	.rectangle-filter {
-		height: 100%;
-	}
-
 	.reason-to-get {
 		height: auto;
 	}
@@ -353,7 +361,7 @@ body {
 	}
 
 	.start-something-new p, h2 {
-		padding: 10px;
+		padding: 1rem;
 		text-align: center;
 	}
 
@@ -366,29 +374,28 @@ body {
 	}
 
 	.reason-to-get p, h5 {
-		padding: 10px;
+		padding: 1rem;
 		text-align: center;
 	}
 
 	.old-car-slogan {
 		width: 100%;
-		height: 350px;
-		padding-left: 50px;
+		height: 22rem;
+		padding-left: 3rem;
 	}
 
-	.card {
+	.card-1, .card-2 {
 		height: auto;
+		width: auto;
+		margin: 1rem;
 	}
 
-	.card-shadow {
-		height: 70vh;
+	.card-1:hover {
+		transform: none;
 	}
 
-	.card-shadow:hover {
-		transform: scale(1.0);
-		-webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0);
-		-moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0);
-		box-shadow: 0px 2px 3px 0px rgba(0,0,0,0);
+	.card-2:hover {
+		transform: none;
 	}
 
 	.footer {
@@ -396,7 +403,7 @@ body {
 	}
 
 	.get-in-touch p {
-		padding: 20px;
+		padding: 2rem;
 		text-align: justify;
 	}
 
